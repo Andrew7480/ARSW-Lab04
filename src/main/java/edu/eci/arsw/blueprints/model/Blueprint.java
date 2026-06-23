@@ -11,10 +11,10 @@ public class Blueprint {
     private String name;
     private final List<Point> points = new ArrayList<>();
 
-    public Blueprint(String author, String name, List<Point> pts) {
+    public Blueprint(String author, String name, List<Point> points) {
         this.author = author;
         this.name = name;
-        if (pts != null) points.addAll(pts);
+        if (points != null) this.points.addAll(points);
     }
 
     public String getAuthor() { return author; }

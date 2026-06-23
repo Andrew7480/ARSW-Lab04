@@ -1,6 +1,9 @@
 package edu.eci.arsw.blueprints.persistence;
 
 import edu.eci.arsw.blueprints.model.Blueprint;
+import edu.eci.arsw.blueprints.persistence.exception.BlueprintNotFoundException;
+import edu.eci.arsw.blueprints.persistence.exception.BlueprintPersistenceException;
+
 import java.util.Set;
 
 public interface BlueprintPersistence {
